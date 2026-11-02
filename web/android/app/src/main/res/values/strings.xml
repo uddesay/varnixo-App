@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Varnixo</string>
+    <string name="title_activity_main">Varnixo</string>
+    <string name="package_name">com.varnixo.app</string>
+    <string name="custom_url_scheme">com.varnixo.app</string>
+</resources>
