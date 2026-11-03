@@ -29,7 +29,7 @@ const today = () => {
 
 export function ShellProvider({ children }: { children: ReactNode }) {
   const { hasPermission } = useAuth();
-  const [collapsed, setCollapsedState] = useState(() => storage.get('varnixo.admin.sidebarCollapsed', false));
+  const [collapsed, setCollapsedState] = useState(() => storage.get('varnixo.admin.sidebarCollapsed', true));
   const [workspace, setWorkspaceState] = useState<Workspace>(() => storage.get<Workspace>('varnixo.admin.workspace', 'platform'));
   const [paletteOpen, setPaletteOpen] = useState(false);
   const [crumb, setCrumb] = useState<string | null>(null);
